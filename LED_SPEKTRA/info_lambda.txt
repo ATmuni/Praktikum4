@@ -1,0 +1,15 @@
+Program je celkom intuitivny, iba zadas konkretny LED dataset, ktory treba vyhodnotit (napr. RED) a program vypise konkretne udaje.
+
+Hlavna pointa programu je vypocet vlnovej dlzky lambda a priemer hertzovej skrvny 'a'.
+
+Program je rozdeleny do  hlavnych casti: LINEÁRNY FIT a ARITMETICKÝ PRIEMER.
+
+Blok Linearny fit ziskava udaje lambda, 'a' podla teorie z fitu r^2_k(k).
+
+Blok Aritmeticky priemer pocita podla vztahu (18) v teorii. Nasledne program spriemeruje vsetky vypocitane lambdy a to je vysledok. 
+Priemer Hertzovu skvrny 'a' tymto sposobom nejde vypocitat priamo a preto program pocita upravenim vyrazu (12) zo znamej hodnoty r^2_k a lambda.
+Tento sposob je skorej orientacny pretoze pri fite mi absolutny clen vychadzal < 0 takze nemozno vypocitat 'a'.
+
+Chyba je pravdepodobne sposobena bud nepresnostou merania alebo nespravnym urcenim polomeru krivosti R. 
+Polomer krivosti som nemeral ani Caha nic o tom nehovoril. Pravdepodobne je hodnota niekde zapisana v navode pri tych Newtonovych sklach.
+V programe je hodnota urcena orientacne rovna R=82.3 mm. Tato hodnota priblizne sedi aby vychadzali rozumne vlnove dlzky ale nemusi byt spravna.
