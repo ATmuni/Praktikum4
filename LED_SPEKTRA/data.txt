@@ -64,7 +64,7 @@ k   x_R x_L
 4   42  561
 5   8   593
 
-LED : RED
+LED : ORANGE
 k   x_R x_L
 1   189 408
 2   127 473
