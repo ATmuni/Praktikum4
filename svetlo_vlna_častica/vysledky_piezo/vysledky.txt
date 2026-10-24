@@ -1,0 +1,10 @@
+VYHODNOTENIE PIEZOELEKTRICKÉHO AKTUÁTORA
+Počet meraní: 16
+Vlnová dĺžka: 532.000 nm
+Frekvencia: 101.4000 Hz; perióda: 9.8619 ms
+N = (0.379012 ± 0.019255) U_pp + (-0.850511 ± 0.274286)
+R² = 0.965125
+U_pp na ďalší pozorovaný peak: (2.6384 ± 0.1340) V/peak
+Rozsah posunu na 1 V: (50.409 ± 2.561) nm/V
+U_pp na posun o λ/2: (5.2769 ± 0.2681) V
+Predpoklad: maximá boli počítané počas celej periódy sínusu.
